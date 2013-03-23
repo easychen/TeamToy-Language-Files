@@ -41,11 +41,11 @@ $GLOBALS['language']['us_en'] = array
 	'LOGIN_VIA_QR_CODE' => 'Scan QRCode',
 
 	/* ======== Dashboard =========== */
-	'DATA_LOAD_ERROR'=>'数据载入失败，请稍后再试',
-	'DB_UPGRADE_SUCCESS'=>'更新完成，请<a href="?c=dashboard">用力刷新页面以保证新代码正常工作</a>',
-	'CODE_UPGRADE_ONLY_ADMIN'=>'只有管理员才能进行升级',
-	'CODE_UPGRADE_ALREADY_LATEST'=>'已经是最新版本',
-	'CODE_UPGRADE_ERROR'=>'升级失败，请稍后再试',
+	'DATA_LOAD_ERROR'=>'Data loading fails, please try again later',
+	'DB_UPGRADE_SUCCESS'=>'Upgrade finished，Please refresh<a href="?c=dashboard">this page</a>',
+	'CODE_UPGRADE_ONLY_ADMIN'=>'Only admin can perform upgradation',
+	'CODE_UPGRADE_ALREADY_LATEST'=>'Already the most current version',
+	'CODE_UPGRADE_ERROR'=>'Upgrade failed, please try later',
 	'CODE_UPGRADE_SUCCESS_DB_UPGRADE'=>'代码更新成功，请<a href="%s">点击这里升级数据表</a>',
 	'CODE_UPGRADE_SUCCESS'=>'成功更新，请<a href="?c=inbox">用力刷新页面以保证新代码正常工作</a>',
 	'CODE_UPGRADE_CANNOT_CONNECT'=>'联网失败，请稍后再试',
