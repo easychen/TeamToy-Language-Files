@@ -1,7 +1,7 @@
 <?php
 $GLOBALS['language']['us_en'] = array
 (
-  /* ==== All ======  */
+	/* ==== All ======  */
 	'ACCOUNT_CLOSED' => 'Closed',
 	'ACCOUNT_SUPER_ADMIN' => 'Admin',
 
@@ -23,22 +23,22 @@ $GLOBALS['language']['us_en'] = array
 	'LOGIN_OK_NOTICE' => 'Login success,forwarding...',
 
 	'API_CONNECT_ERROR_NOTICE' => 'Can\'t connect to server, try later',
-	'LOGIN_BAD_ARGS_NOTICE' => '错误的Email地址或者密码，请重试',
+	'LOGIN_BAD_ARGS_NOTICE' => 'Bad Email address or password, try again',
 
-	'ADMIN_ONLY_LOGIN' => '只有管理员才能进入此页面，<a href="?c=guest&a=logout">请先用管理员账户登入</a>',
+	'ADMIN_ONLY_LOGIN' => 'Only Admin can visit this page , <a href="?c=guest&a=logout">sign in as admin first</a>',
 
 	/* ======== HEADER NAV =========== */
-	'INDEX_PAGE' => '首页',
-	'TEAM_FEED' => '团队动态',
-	'TEAM_MEMBER' => '成员管理',
-	'INBOX' => '收件箱',
-	'PLUGIN_LIST' => '插件管理',
-	'CHECK_NEW_VERSION' => '版本升级',
-	'MESSAGE_SOUND' => '消息提示音',
-	'UPDATE_PROFILE' => '更新个人资料',
-	'UPDATE_AVATAR' => '更换头像',
-	'UPDATE_PASSWORD' => '修改密码',
-	'LOGIN_VIA_QR_CODE' => '通过二维码登入',
+	'INDEX_PAGE' => 'Home',
+	'TEAM_FEED' => 'Feed',
+	'TEAM_MEMBER' => 'Members',
+	'INBOX' => 'Inbox',
+	'PLUGIN_LIST' => 'Plugins',
+	'CHECK_NEW_VERSION' => 'Check new version',
+	'MESSAGE_SOUND' => 'Message alert',
+	'UPDATE_PROFILE' => 'Profile',
+	'UPDATE_AVATAR' => 'Avatar',
+	'UPDATE_PASSWORD' => 'Change password',
+	'LOGIN_VIA_QR_CODE' => 'Scan QRCode',
 
 	/* ======== Dashboard =========== */
 	'DATA_LOAD_ERROR'=>'数据载入失败，请稍后再试',
