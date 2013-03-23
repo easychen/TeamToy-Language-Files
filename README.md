@@ -4,6 +4,15 @@ TeamToy-Language-Files
 translate teamtoy to other languages
 TeamToy 语言包翻译项目
 
+# 已经认领的语言包
+- 简体中文（默认）
+- 繁体中文（待认领）
+- 英文（待认领）
+- 日文（待认领）
+- 法文（待认领）
+- 德文（待认领）
+
+
 # 如何翻译
 - fork 本项目。
 - 将zh_cn.lang.php改名为你要翻译的语言文件，文件名为语言代码（见下表）全部小写，-改为_。
