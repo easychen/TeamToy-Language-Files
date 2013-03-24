@@ -19,8 +19,8 @@ $GLOBALS['language']['us_en'] = array
 	'LOGOUT' => 'Sign out',
 	'EMAIL' => 'Email',
 	'PASSWORD' => 'Password',
-	'NO_IE_NOTICE' => 'TeamToy hates IE <br/><br/>Use Chome,Firefox or Safari please',
-	'LOGIN_OK_NOTICE' => 'Login success,forwarding...',
+	'NO_IE_NOTICE' => 'TeamToy hates IE <br/><br/>Use Chrome, Firefox or Safari please',
+	'LOGIN_OK_NOTICE' => 'Login successful, forwarding...',
 
 	'API_CONNECT_ERROR_NOTICE' => 'Can\'t connect to server, try later',
 	'LOGIN_BAD_ARGS_NOTICE' => 'Bad Email address or password, try again',
@@ -42,17 +42,17 @@ $GLOBALS['language']['us_en'] = array
 
 	/* ======== Dashboard =========== */
 	'DATA_LOAD_ERROR'=>'Data loading error, try later',
-	'DB_UPGRADE_SUCCESS'=>'Upgraded successfully, <a href="?c=dashboard">refresh to new version</a>',
+	'DB_UPGRADE_SUCCESS'=>'Upgraded successfully, <a href="?c=dashboard">refresh to enter new version</a>',
 	'CODE_UPGRADE_ONLY_ADMIN'=>'Only admin can upgrade',
-	'CODE_UPGRADE_ALREADY_LATEST'=>'Already latest version',
-	'CODE_UPGRADE_ERROR'=>'Upgrade fail,try later',
-	'CODE_UPGRADE_SUCCESS_DB_UPGRADE'=>'Code upgraded successfully,<a href="%s">upgrade database</a>',
-	'CODE_UPGRADE_SUCCESS'=>'Upgraded successfully,<a href="?c=inbox">refresh to new version</a>',
-	'CODE_UPGRADE_CANNOT_CONNECT'=>'Can\'t connect to upgrade server,try later',
+	'CODE_UPGRADE_ALREADY_LATEST'=>'Already the latest version',
+	'CODE_UPGRADE_ERROR'=>'Upgrade failed, try again later',
+	'CODE_UPGRADE_SUCCESS_DB_UPGRADE'=>'Code upgraded successfully, <a href="%s">click here to upgrade database</a>',
+	'CODE_UPGRADE_SUCCESS'=>'Upgraded successfully, <a href="?c=inbox">refresh to enter new version</a>',
+	'CODE_UPGRADE_CANNOT_CONNECT'=>'Can\'t connect to upgrade server, try again later',
 
-	'AVATAR_UPLOAD_ERROR'=>'File upload error,try again please',
-	'AVATAR_UPDATE_SUCCESS'=>'<a href="?c=buddy">Avatar  updated , if you still see old one , refresh your browser</a>',
-	'AVATAR_UPDATE_ERROR'=>'Avatar update error , error code -%s，error info -%s',
+	'AVATAR_UPLOAD_ERROR'=>'File upload error, try uploading again please',
+	'AVATAR_UPDATE_SUCCESS'=>'<a href="?c=buddy">Avatar updated. If you still see your old avator, refresh your browser</a>',
+	'AVATAR_UPDATE_ERROR'=>'Avatar update error, error code -%s，error info -%s',
 
 	'API_MESSAGE_SAVE_DATA_ERROR' => 'Can\'t save data',
 	'API_MESSAGE_CANNOT_CONNECT' => 'Can\'t connect to API server',
@@ -60,74 +60,74 @@ $GLOBALS['language']['us_en'] = array
 
 	'API_MESSAGE_DATABASE_ERROR' => 'Database error',
 	
-	'API_MESSAGE_ONLY_ADMIN' => 'Only admin can do it',
-	'API_MESSAGE_USER_CLOSED_BY_ADMIN' => 'This account closed by admin',
+	'API_MESSAGE_ONLY_ADMIN' => 'Only admin can perform this action',
+	'API_MESSAGE_USER_CLOSED_BY_ADMIN' => 'This account has been closed by admin',
 
 	'API_MESSAGE_BAD_ACCOUNT' => 'Bad Email or password',
-	'API_MESSAGE_CANNOT_RESET_OWN_PASSWORD' => 'Can\'t reset your own password',
+	'API_MESSAGE_CANNOT_RESET_OWN_PASSWORD' => 'You can\'t reset your own password',
 
-	'API_MESSAGE_UPGARDE_INFO_DATA_ERROR' => 'Upgrade info on server error',
-	'API_MESSAGE_UPGARDE_ALREADY_LATEST' => 'Already latest version',
+	'API_MESSAGE_UPGARDE_INFO_DATA_ERROR' => 'There are some problems with the data fetched from upgrade server',
+	'API_MESSAGE_UPGARDE_ALREADY_LATEST' => 'Already the latest version',
 
-	'API_MESSAGE_UPGARDE_FILE_UNZIP_ERROR' => 'Unzip upgrade package error',
-	'API_MESSAGE_UPGARDE_FILE_FETCH_ERROR' => 'Download upgrade package error',
+	'API_MESSAGE_UPGARDE_FILE_UNZIP_ERROR' => 'Failed to unzip upgrade package',
+	'API_MESSAGE_UPGARDE_FILE_FETCH_ERROR' => 'Failed to download upgrade package',
 
-	'API_MESSAGE_FETCH_SETTINGS_DATA_ERROR' => 'Can\'t read user settings',
+	'API_MESSAGE_FETCH_SETTINGS_DATA_ERROR' => 'Failed to fetch user settings',
 
-	'API_MESSAGE_CANNOT_CHANGE_PASSWORD' => 'Changing password has been forbiden',
-	'API_MESSAGE_SAME_PASSWORD' => 'New password is the same as old one',
+	'API_MESSAGE_CANNOT_CHANGE_PASSWORD' => 'Changing password has been forbidden',
+	'API_MESSAGE_SAME_PASSWORD' => 'New password is the same as the old one',
 
 
 	'API_MESSAGE_BAD_OPASSWORD' => 'Old password error',
-	'API_MESSAGE_CANNOT_CHANGE_OWN_LEVEL' => 'Can\'t change your own level',
-	'API_MESSAGE_CANNOT_CLOSE_ONLY_ADMIN' => 'Can\'t close the ONLY admin',
+	'API_MESSAGE_CANNOT_CHANGE_OWN_LEVEL' => 'Can\'t change your own user level',
+	'API_MESSAGE_CANNOT_CLOSE_ONLY_ADMIN' => 'You will need at least ONE admin account! Can\'t close the ONLY admin',
 
 
-	'API_MESSAGE_USER_NOT_EXISTS' => 'Account not exists',
-	'API_MESSAGE_ACCOUNT_CLOSED' => '%s closed user[%s]',
-	'API_MESSAGE_USER_LEVEL_UPDATED' => '%s change user [%s] to level %s',
+	'API_MESSAGE_USER_NOT_EXISTS' => 'Account does not exist',
+	'API_MESSAGE_ACCOUNT_CLOSED' => '%s closed user [%s]',
+	'API_MESSAGE_USER_LEVEL_UPDATED' => '%s changed user [%s] to user level %s',
 
 
-	'API_MESSAGE_TODO_EXISTS' => 'Same TODO exists',
-	'API_MESSAGE_EMPTY_RESULT_DATA' => 'Data not exists',
+	'API_MESSAGE_TODO_EXISTS' => 'Same TODO already existed',
+	'API_MESSAGE_EMPTY_RESULT_DATA' => 'Data does not exist',
 
-	'API_MESSAGE_CANNOT_REMOVE_OTHERS_COMMENT' => 'Can\'t delete other\'s comment',
+	'API_MESSAGE_CANNOT_REMOVE_OTHERS_COMMENT' => 'You can\'t delete other\'s comment',
 
-	'API_MESSAGE_TODO_ASSIGN_TO_SELF' => 'Can\'t assign TODO to self',
+	'API_MESSAGE_TODO_ASSIGN_TO_SELF' => 'You don\'t need to assign TODO to yourself',
 
-	'API_MESSAGE_SPEAK_TO_SELF' => 'Can\'t send dm to self',
+	'API_MESSAGE_SPEAK_TO_SELF' => 'You can\'t send message to yourself',
 
-	'API_MESSAGE_CANNOT_ASSIGN_OTHERS_TODO' => 'Can\'t assign other\'s TODO',
+	'API_MESSAGE_CANNOT_ASSIGN_OTHERS_TODO' => 'You can\'t assign other\'s TODO',
 
 
-	'API_MESSAGE_CANNOT_UPDATE_OTHERS_TODO' => 'Can\'t update other\'s TODO',
-	'API_MESSAGE_CANNOT_REMOVE_OTHERS_FEED' => 'Can\'t delete other\'s feed',
+	'API_MESSAGE_CANNOT_UPDATE_OTHERS_TODO' => 'You can\'t update other\'s TODO',
+	'API_MESSAGE_CANNOT_REMOVE_OTHERS_FEED' => 'You can\'t delete other\'s feed',
 
-	'API_MESSAGE_TODO_ALREADY_FOLLOWED' => 'Already followed this TODO',
+	'API_MESSAGE_TODO_ALREADY_FOLLOWED' => 'You have already followed this TODO',
 
-	'API_MESSAGE_TODO_ALREADY_DELETE_LOCALLY' => 'TODO removed locally',
-	'API_MESSAGE_TODO_ALREADY_HAD_OTHER_ACTION' => 'Some changes happend on cloud',
+	'API_MESSAGE_TODO_ALREADY_DELETE_LOCALLY' => 'This TODO has been removed locally',
+	'API_MESSAGE_TODO_ALREADY_HAD_OTHER_ACTION' => 'This update has conflicts with data on the server',
 
 
 	
 
 	'API_TEXT_JOINT_TEAMTOY' => '%s joined TeamToy',
-	'API_TEXT_NEW_VERSION' => 'TeamToy version %s released',
+	'API_TEXT_NEW_VERSION' => 'TeamToy version %s is released',
 
 
 	'API_TEXT_TODO_ADDED' => '%s added TODO [%s]',
 	'API_TEXT_COMMENT_TODO_FOLLOWED' => '%s added a comment to the TODO you followed [%s]: %s',
 	'API_TEXT_COMMENT_TODO_OWNED' => '%s added a comment to your TODO [%s]: %s',
 
-	'API_TEXT_AT_IN_TODO_COMMENT' => '%s @you in the comment of TODO [%s]: %s',
-	'API_TEXT_AT_IN_CAST_COMMENT' => '%s @you in the comment of feed [%s]: %s',
+	'API_TEXT_AT_IN_TODO_COMMENT' => '%s mentioned you in the comment of TODO [%s]: %s',
+	'API_TEXT_AT_IN_CAST_COMMENT' => '%s mentioned you in the comment of feed [%s]: %s',
 
 	'API_TEXT_COMMENT_TODO' => '%s added a comment to your TODO [%s]: %s',
 
 	'API_TEXT_COMMENT_FEED_OWNED' => '%s added a comment to your feed [%s]: %s',
-	'API_TEXT_COMMENT_FEED_IN' => '%s added a comment to the feed you had leave a word [%s]: %s',
+	'API_TEXT_COMMENT_FEED_IN' => '%s added a comment to the feed you participated [%s]: %s',
 
-	'API_TEXT_ASSIGN_TODO' => 'Assigned TODO',
+	'API_TEXT_ASSIGN_TODO' => 'assigned TODO',
 	'API_TEXT_ASSIGN_TODO_TO_U' => '%s assigned a TODO [%s] to you',
 	'API_TEXT_ASSIGN_TODO_FOLLOWED' => '%s assigned the TODO you followed[%s] to %s',
 
@@ -136,29 +136,29 @@ $GLOBALS['language']['us_en'] = array
 	'API_TEXT_FINISH_TODO' => '%s finished TODO [%s]',
 	'API_TEXT_FINISH_TODO_FOLLOWED' => '%s finished the TODO you followed [%s]',
 
-	'API_TEXT_AT_IN_CAST' => '%s @you in a broadcast message [%s]',
+	'API_TEXT_AT_IN_CAST' => '%s mentioned you in a broadcast message [%s]',
 	'API_TEXT_ADD_CAST' => '%s sent a broadcast message [%s]',
 
 
 
-	'API_TEXT_ALREADY_UPGARDE_TO' => 'Your TeamToy had been upgrade to version %s,<a href="%s">click to upgrade database</a>',
+	'API_TEXT_ALREADY_UPGARDE_TO' => 'Your TeamToy had been upgraded to version %s, <a href="%s">click to upgrade database</a>',
 
 
-	'INPUT_CHECK_BAD_ARGS' => 'parameters error , %s can not be empty',
-	'INPUT_CHECK_BAD_EMAIL' => 'parameters error , bad EMail format',
-	'INPUT_CHECK_EMAIL_EXISTS' => 'parameters error , EMail exists already',
-	'INPUT_CHECK_BAD_ACTVECODE' => 'parameters error , active code expired or not exists',
-	'INPUT_CHECK_BAD_HTYPE' => 'parameters error , bad HTYPE',
+	'INPUT_CHECK_BAD_ARGS' => 'parameter error, %s cannot be empty',
+	'INPUT_CHECK_BAD_EMAIL' => 'parameter error, bad email format',
+	'INPUT_CHECK_EMAIL_EXISTS' => 'parameter error, email exists already',
+	'INPUT_CHECK_BAD_ACTVECODE' => 'parameter error, activation code expired or does not exist',
+	'INPUT_CHECK_BAD_HTYPE' => 'parameter error, bad HTYPE',
 
 
-	'INPUT_CHECK_NO_OLDPASS' => 'parameters error , old password can not be empty',
-	'INPUT_CHECK_NO_NEWPASS' => 'parameters error , new password can not be empty',
-	'INPUT_CHECK_NO_TODO_TITLE' => 'parameters error, TODO title can not be empty , click the todo text on the left to reload',
+	'INPUT_CHECK_NO_OLDPASS' => 'parameter error, old password cannot be empty',
+	'INPUT_CHECK_NO_NEWPASS' => 'parameter error, new password cannot be empty',
+	'INPUT_CHECK_NO_TODO_TITLE' => 'parameter error, TODO title cannot be empty, click the todo text on the left to reload',
 
-	'TODO_LOAD_ERROR' => 'Load TODO failed , retry please',
+	'TODO_LOAD_ERROR' => 'Failed to load TODO, retry again please',
 	'TODO_CREATED' => 'created TODO',
 
-	'NEED_LOGIN' => 'This page needs <a href="?c=guest">sign in first</a> ',
+	'NEED_LOGIN' => 'This page needs you to <a href="?c=guest">sign in first</a> ',
 
 	// ===================================================
 	// buddy
@@ -166,21 +166,21 @@ $GLOBALS['language']['us_en'] = array
 	'MEMBER_PAGE_TITLE' => 'Members',
 	'FEED_PAGE_TITLE' => 'Feeds',
 	'INBOX_PAGE_TITLE' => 'Inbox',
-	'INSTALL_PAGE_TITLE' => 'TeamToy Install Guide',
+	'INSTALL_PAGE_TITLE' => 'TeamToy Installation Guide',
 	'PLUGIN_ADMIN_PAGE_TITLE' => 'Plugins',
 
-	'PLUGIN_UPLOAD_FILE_ERROR_RETRY' => 'File upload error,try again',
-	'PLUGIN_GET_NAME_ERROR_RETRY' => 'Fetch plugin name failed, using %s as temp name, <a href="?c=pluglist">click to continue</a>',
-	'PLUGIN_PACKAGE_FORMAT_ERROR' => 'Can\'t find core script - app.php, <a href="?c=pluglist">upload the plugin package with well format</a>',
-	'PLUGIN_CREATE_FOLDER_ERROR' => 'Create plugin folder error, change /plugin folder writable ,<a href="?c=pluglist">then try again</a>',
+	'PLUGIN_UPLOAD_FILE_ERROR_RETRY' => 'Failed to upload file, try uploading it again',
+	'PLUGIN_GET_NAME_ERROR_RETRY' => 'Failed to fetch plugin name, a temporary name %s has been assigned. <a href="?c=pluglist">Click here to continue</a>',
+	'PLUGIN_PACKAGE_FORMAT_ERROR' => 'Can\'t find core script app.php, <a href="?c=pluglist">please upload a plugin package in correct format</a>',
+	'PLUGIN_CREATE_FOLDER_ERROR' => 'Failed to create plugin folder, please change the permission of your /plugin folder to writable, <a href="?c=pluglist">then try again</a>',
 
 
-	'DATABASE_INIT_FINISHED' =>  'Database inited successfully, <a href="/" target="new">Sign in and add members </a> using [member@teamtoy.net] / [%s]' ,
+	'DATABASE_INIT_FINISHED' =>  'Database initiated successfully. <a href="/" target="new">Sign in</a> using [member@teamtoy.net] / [%s] and add more menbers' ,
 	
 
 
-	'FEED_LOAD_ERROR_RETRY' => 'Load feed error , try again',
-	'INSTALL_FINISHED' => 'API Server inited successfully, <a href="?c=guest">sign in as admin</a>',
+	'FEED_LOAD_ERROR_RETRY' => 'Failed to load feed, please try again',
+	'INSTALL_FINISHED' => 'API Server initiated successfully, <a href="?c=guest">you can now sign in as admin</a>',
 
 	'BAD_ARGS' => 'Bad parameters',
 
@@ -189,9 +189,9 @@ $GLOBALS['language']['us_en'] = array
 	'FIND_CHAT_HISTORY' => 'Search',
 	'NEXT_PAGE' => 'Next page',
 	'OLD_PASS' => 'Old password',
-	'INPUT_OLD_PASS' => 'Input old password',
+	'INPUT_OLD_PASS' => 'Enter old password',
 	'NEW_PASS' => 'New Password',
-	'INPUT_NEW_PASS' => 'Input new password',
+	'INPUT_NEW_PASS' => 'Enter new password',
 	'REPEATE_PASS' => 'Repeat',
 	'REPEATE_PASS_EXPLAIN' => 'Repeat the new password',
 	'UPDATE' => 'Update',
@@ -199,25 +199,25 @@ $GLOBALS['language']['us_en'] = array
 
 	'FIND_BY_NAME_OR_PINYIN' => 'Find by name',
 	'SELECTED_PEOPLE' => 'Selected',
-	'ONE_PEOPLE_LEAST' => 'One person at least',
+	'ONE_PEOPLE_LEAST' => 'You need to select at least ONE member.',
 
 	'NAME' => 'Name',
-	'NAME_INPUT_EXPLAIN' => 'Can\'t be modified',
+	'NAME_INPUT_EXPLAIN' => 'This field can\'t be modified',
 	'EMAIL' => 'Email',
-	'EMAIL_INPUT_EXPLAIN' => 'Can\'t empty , to receive notice',
+	'EMAIL_INPUT_EXPLAIN' => 'This field can\'t be empty, there will be notice via emails',
 	'MOBILE' => 'Mobile',
-	'MOBILE_INPUT_EXPLAIN' => 'Can\'t empty',
+	'MOBILE_INPUT_EXPLAIN' => 'This field can\'t be empty',
 	'TEL' => 'Tel.',
-	'TEL_INPUT_EXPLAIN' => 'full number',
+	'TEL_INPUT_EXPLAIN' => 'Please enter your full telephone number',
 	'EMPLOYEE_ID' => 'Employee ID',
-	'EMPLOYEE_ID_INPUT_EXPLAIN' => 'for the other systems in company',
+	'EMPLOYEE_ID_INPUT_EXPLAIN' => 'for future integration with other company systems',
 	'WEIBO_ID' => 'Twitter',
 	'WEIBO_ID_INPUT_EXPLAIN' => 'Twitter ID',
 	'DESP_TEXT' => 'Note',
-	'DESP_TEXT_INPUT_EXPLAIN' => 'job title or something',
+	'DESP_TEXT_INPUT_EXPLAIN' => 'job title / other contact methods',
 
-	'FEED_DETAIL_CLOSE' => 'close feed detail',
-	'TODO_DETAIL_CLOSE' => 'close todo detail',
+	'FEED_DETAIL_CLOSE' => 'hide feed details',
+	'TODO_DETAIL_CLOSE' => 'hide todo details',
 	'CLICK_TO_EDIT' => 'click to modify',
 	'CANCEL' => 'Cancel',
 	'SAVE' => 'Save',
@@ -226,10 +226,10 @@ $GLOBALS['language']['us_en'] = array
 	'COMMENT' => 'Comment',
 	'ENTER_TODO_CONTENT' => 'Enter TODO content here',
 
-	'TODO_FOLLOWED' => 'TODO followed',
-	'TODO_MINE' => 'My TODO',
+	'TODO_FOLLOWED' => 'TODOs I\'ve followed',
+	'TODO_MINE' => 'My TODOs',
 	'MARK_ALL_TODO_DONE' => 'Mark all as done',
-	'CLEAN_ALL_TODO_DONE' => 'Clean all finished TODO',
+	'CLEAN_ALL_TODO_DONE' => 'Archieve all completed TODOs',
 
 	// ======================
 	// 团队成员页面
@@ -243,10 +243,10 @@ $GLOBALS['language']['us_en'] = array
 
 	// ======================
 	// 广播页面
-	'SEND_CAST' => 'Broadcast',
+	'SEND_CAST' => 'Send a broadcast',
 	'SEND_CAST_TO_ALL_EXPLAIN' => 'Everyone will be notified',
-	'SEND_CAST_EXPLAIN' => 'If you don\'t @ anyone , everyone will be notified ',
-	'AT_TEXT' => '@Somebody',
+	'SEND_CAST_EXPLAIN' => 'If you don\'t mention anyone, everyone will be notified ',
+	'AT_TEXT' => '@person_to_mention',
 
 	// ======================
 	// 收件箱
@@ -261,10 +261,10 @@ $GLOBALS['language']['us_en'] = array
 	'UPLOAD_PLUGIN' => 'Upload plugins',
 	'PLUGIN_NAME' => 'Name',
 	'PLUGIN_DESP' => 'Desp.',
-	'PLUGIN_VERSION' => 'Verison',
+	'PLUGIN_VERSION' => 'Version',
 	'PLUGIN_STATUS' => 'Status',
-	'PLUGIN_ON' => 'Active',
-	'NO_AVAILABLE_PLUGIN' => 'no plugin available',
+	'PLUGIN_ON' => 'Activated',
+	'NO_AVAILABLE_PLUGIN' => 'no plugins available',
 	
 
 	// ======================
@@ -272,10 +272,10 @@ $GLOBALS['language']['us_en'] = array
 	'DATE_FULL_FORMAT' => 'Y/n/j \a\t g:ia',
 	'DATE_SHORT_FORMAT' => 'n/j \a\t g:ia',
 	
-	'DATE_RELATED_NOW' => 'moment',
+	'DATE_RELATED_NOW' => 'just now',
 	'DATE_RELATED_AFTER' => 'later',
 	
-	'DATE_RELATED_LESS_THAN_A_MINUTE' => 'less than a minute',
+	'DATE_RELATED_LESS_THAN_A_MINUTE' => 'in less than a minute',
 	'DATE_RELATED_ONE_MINUTE' => 'a minute ago',
 	'DATE_RELATED_SOME_MINUTES' => '%s minutes ago',
 	'DATE_RELATED_ONE_HOUR' => 'an hour ago',
@@ -285,7 +285,7 @@ $GLOBALS['language']['us_en'] = array
 	'FROM_WEB_DEVICE' => '<a href="http://teamtoy.net/?c=download&type=web" target="_blank">from web</a>',
 
 	
-	'TEAMTOY_INTRO_TEXT' => 'TeamToy is a productivity tool designed for a team. It focus on "Getting things done" and put everyone together . You can assign a TODO , @ somebody or send boardcast message to a group anytime anywhere , using our mobile client .',
+	'TEAMTOY_INTRO_TEXT' => 'TeamToy is a productivity tool designed for teams. It focuses on "Getting things done" and put everyone together. You can assign a TODO, @ somebody or send broadcast messages to a group, anytime & anywhere using our mobile client.',
 
 	'ABOUT_VERSION_TEXT' => 'Version - %s',
 	'ABOUT_SITE_TEXT' => 'Web Site - <a href="http://teamtoy.org" target="_blank" class="white">TeamToy.org</a>',
@@ -304,7 +304,7 @@ $GLOBALS['language']['us_en'] = array
 
 	'LIST_LOAD_MORE' => 'Load more',
 
-	'INPUT_COMMENT_CONTENT' => 'Input comment here',
+	'INPUT_COMMENT_CONTENT' => 'Enter comment here',
 
 
 	'QRCODE_FOR_MOBILE_CLIENT' => 'QR code for mobile client',
@@ -315,26 +315,26 @@ $GLOBALS['language']['us_en'] = array
 	'SCAN_QRCODE_VIA_MOBILE_CLIENT' => 'Scan with <a href="http://teamtoy.net/?c=download&type=mobile" target="new">TeamToy moible client</a>',
 
 	'UPLOAD' => 'Upload',
-	'PLUGIN_INSTALL_WARNNING' => 'Make sure the plugin from safe source, just put app.php in the root directry of Zip package',
+	'PLUGIN_INSTALL_WARNNING' => 'Please install only plugins from reliable sources. Please make sure your app.php is in the root directry of your Zip package.',
 
 
 
-	'SET_AS_NORMAL_MEMBER' => 'Set to member',
-	'SET_AS_ADMIN' => 'set as admin',
+	'SET_AS_NORMAL_MEMBER' => 'Set as non-admin',
+	'SET_AS_ADMIN' => 'Set as admin',
 	'RESET_PASSWORD' => 'Reset password',
 
 	'EDIT_MEMBER_GROUP' => 'edit group',
 
-	'DONOT_CHAT_TO_SELF' => 'The words speaking to self no need to send to server ',
-	'CHATBOX_EXPLAIN_TEXT' => 'Type text here , ENTER to send',
+	'DONOT_CHAT_TO_SELF' => 'You don\'t need to talk to yourself on a server, do you?',
+	'CHATBOX_EXPLAIN_TEXT' => 'Type text here, press ENTER to send',
 
 	'UPGRADE_NOW' => 'Upgrade now',
 
 	'CLICK_TO_START_STOP_TODO' => 'toggle start/stop',
 	'STAR_TODO' => 'STAR',
 
-	'FOLLOW' => 'Follow',
-	'FOLLOWER' => 'Who followed',
+	'FOLLOW' => 'Following',
+	'FOLLOWER' => 'Followers',
 
 	'FINISH' => 'Done',
 	'STAR' => 'Stared',
@@ -350,49 +350,49 @@ $GLOBALS['language']['us_en'] = array
 	'FOOTER_INFO' => '<a href="http://teamtoy.net" target="new">TeamToy</a> | <a href="http://ftqq.com/" target="new">Ftqq.com</a> &copy; 2008~%s',
 
 	
-	'JS_API_CALL_ERROR' => 'API error , try later . Error code - %s , error info - %s',
-	'JS_CANNOT_ASSIGN_PRIVATE_TODO' => 'Can\'t assign a private TODO ',
-	'JS_SELECT_MEMBER_TO_ASSIGN' => 'choose the member assign to',
-	'JS_MARK_ALL_TODO_DONE_CONFIRM' => 'Make all TODO done?',
-	'JS_REMOVE_ALL_TODO_DONE_CONFIRM' => 'Clean all finished TODO？',
+	'JS_API_CALL_ERROR' => 'API error, try again later . Error code - %s, error info - %s',
+	'JS_CANNOT_ASSIGN_PRIVATE_TODO' => 'You can\'t assign a private TODO ',
+	'JS_SELECT_MEMBER_TO_ASSIGN' => 'choose the member to assign to',
+	'JS_MARK_ALL_TODO_DONE_CONFIRM' => 'Are you sure to make all TODOs done?',
+	'JS_REMOVE_ALL_TODO_DONE_CONFIRM' => 'Archieve all finished TODOs？',
 	'JS_REMOVE_CAST_CONFIRM' => 'Remove this feed?',
 	'JS_REMOVE_COMMENT_CONFIRM' => 'Remove this comment?',
 	
-	'JS_STOP_PLUGIN_CONFIRM' => 'All related feature will unavailable when deactive  %s plugin , go on?',
-	'JS_ACCOUNT_CLOSE_CONFIRM' => 'Are you sure to close this account? This user would not login to TeamToy anymore',
+	'JS_STOP_PLUGIN_CONFIRM' => 'All related feature will unavailable when %s plugin is deactivated. Continue?',
+	'JS_ACCOUNT_CLOSE_CONFIRM' => 'Are you sure to close this account? This user will not be able to login to TeamToy anymore',
 
 	'JS_RESET_PASSWORD_CONFIRM' => 'Reset %s\'s password?',
 
 
 	'JS_TODO_CENTER_PAGE_TITLE' => 'TODO Detail',
-	'JS_NEW_DM' => 'has new direct messages',
+	'JS_NEW_DM' => 'has new messages',
 
-	'JS_NEW_VERSION' => 'has new version %s[%s].upgrade now?',
-	'JS_ALREAD_LASTEST_VERSION' => 'Already latest version',
+	'JS_NEW_VERSION' => 'has new version %s[%s]. Upgrade now?',
+	'JS_ALREAD_LASTEST_VERSION' => 'Already the latest version',
 
-	'JS_ALL_CANNOT_EMPTY' => 'All can not be emtpy',
+	'JS_ALL_CANNOT_EMPTY' => 'All fields must be filled.',
 
 	'JS_ADD_GRUOP_NAME' => 'add group name',
 
 	'JS_CHAT_HISTORY_WITH_SOMEONE' => 'Chat history with %s',
 
-	'JS_NOTICE_PREFIX' => 'You have',
-	'JS_NOTICE_NOTIFACTION' => '%s unread notice',
-	'JS_NOTICE_DM' => '%s unread direct messages',
+	'JS_NOTICE_PREFIX' => 'You have ',
+	'JS_NOTICE_NOTIFACTION' => '%s unread notices',
+	'JS_NOTICE_DM' => '%s unread messages',
 
-	'JS_OLD_PASSWORD_CANNOT_EMPTY' => 'Old password can not be empty',
-	'JS_NEW_PASSWORD_CANNOT_EMPTY' => 'New password can not be empty',
-	'JS_TWO_PASSWORDS_NOT_SAME' => 'Two passwords not same',
+	'JS_OLD_PASSWORD_CANNOT_EMPTY' => 'Old password cannot be empty',
+	'JS_NEW_PASSWORD_CANNOT_EMPTY' => 'New password cannot be empty',
+	'JS_TWO_PASSWORDS_NOT_SAME' => 'Two passwords cannot be the same',
 
 	'JS_PASSWORD_CHANGED' => 'Password updated successfully, use new password to sign in',
-	'JS_API_CONNECT_ERROR' => 'Can\'t connect to server, try later ',
+	'JS_API_CONNECT_ERROR' => 'Can\'t connect to server, try again later ',
 
-	'JS_FILL_MOBILE_EMAIL_PLZ' => 'Email and mobile number can not be empty',
+	'JS_FILL_MOBILE_EMAIL_PLZ' => 'Email and mobile number cannot be empty',
 
 	
 
 	'JS_CAST_MENTION_EXPLAIN_ALL' => 'Everyone will be notified',
-	'JS_CAST_MENTION_EXPLAIN_MENONTED' => 'Metioned will be notified',
+	'JS_CAST_MENTION_EXPLAIN_MENONTED' => 'Mentions will be notified',
 
 	'JS_CANNOT_ADD_PRIVATE_TODO_TO_OTHERS' => 'Can\'t add private TODO to others',
 	'JS_SELECT_MEMBER_TO_ADD' => 'Choose the member you want to add to',
