@@ -6,8 +6,8 @@ TeamToy 语言包翻译项目
 
 # 待校对的语言包
 - 简体中文（默认）已完成。
+- 英文：初翻 by @Easy 校对 by @lazycai(https://github.com/lazylazycai)。
 - 繁体中文：初翻完成 by @Easy 等待校对，主要是IT用词的对应翻译。
-- 英文：初翻完成 by @Easy 等待校对。
 
 # 待翻译的语言包
 - 日文（待认领）
