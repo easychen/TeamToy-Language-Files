@@ -1,7 +1,7 @@
 <?php
 $GLOBALS['language']['zh_cn'] = array
 (
-  /* ==== All ======  */
+	/* ==== All ======  */
 	'ACCOUNT_CLOSED' => '已关闭',
 	'ACCOUNT_SUPER_ADMIN' => '超级管理员',
 
@@ -223,6 +223,7 @@ $GLOBALS['language']['zh_cn'] = array
 	'SEND' => '发送',
 	'REPLY' => '回复',
 	'COMMENT' => '评论',
+	'ENTER_TODO_CONTENT' => '请输入TODO内容',
 
 	'TODO_FOLLOWED' => '我关注的TODO',
 	'TODO_MINE' => '我的TODO',
@@ -289,6 +290,7 @@ $GLOBALS['language']['zh_cn'] = array
 	'ABOUT_SITE_TEXT' => '官方网站 - <a href="http://teamtoy.org" target="_blank" class="white">TeamToy.org</a>',
 	'ABOUT_SUPPORT_TEXT' => '客户支持QQ群 - 166762540',
 
+	'TEAMTOY_STAFF' => '开发团队',
 	'ABOUT_STAFF_BLOCK' => '<p>主平台设计、开发 - <a href="http://weibo.com/easy" target="_blank">@Easy</a> </p>
 
 <p>客户支持 - <a href="http://weibo.com/131417999" target="_blank">@欧耶</a></p>
