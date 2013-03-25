@@ -202,17 +202,17 @@ $GLOBALS['language']['us_en'] = array
 	'ONE_PEOPLE_LEAST' => 'You need to select at least ONE member.',
 
 	'NAME' => 'Name',
-	'NAME_INPUT_EXPLAIN' => 'This field can\'t be modified',
+	'NAME_INPUT_EXPLAIN' => 'can\'t be modified',
 	'EMAIL' => 'Email',
-	'EMAIL_INPUT_EXPLAIN' => 'This field can\'t be empty, there will be notice via emails',
+	'EMAIL_INPUT_EXPLAIN' => 'can\'t be empty, will be notice via emails',
 	'MOBILE' => 'Mobile',
-	'MOBILE_INPUT_EXPLAIN' => 'This field can\'t be empty',
+	'MOBILE_INPUT_EXPLAIN' => 'can\'t be empty',
 	'TEL' => 'Tel.',
-	'TEL_INPUT_EXPLAIN' => 'Please enter your full telephone number',
+	'TEL_INPUT_EXPLAIN' => 'enter your full telephone number',
 	'EMPLOYEE_ID' => 'Employee ID',
 	'EMPLOYEE_ID_INPUT_EXPLAIN' => 'for future integration with other company systems',
-	'WEIBO_ID' => 'Twitter',
-	'WEIBO_ID_INPUT_EXPLAIN' => 'Twitter ID',
+	'WEIBO_ID' => 'Weibo',
+	'WEIBO_ID_INPUT_EXPLAIN' => 'Weibo ID',
 	'DESP_TEXT' => 'Note',
 	'DESP_TEXT_INPUT_EXPLAIN' => 'job title / other contact methods',
 
@@ -235,7 +235,7 @@ $GLOBALS['language']['us_en'] = array
 	// 团队成员页面
 	// 
 	'MEMBER_SEARCH' => 'Search',
-	'MEMBER_ADD' => 'Add members',
+	'MEMBER_ADD' => 'Add Members',
 	'ADD' => 'Add',
 	'MEMBER_SEARCH_KEYWORD_EXPLAIN' => 'name',
 	'MEMBER_SEARCH_KEYWORD_EXPLAIN_SHORT' => 'name',
@@ -243,7 +243,7 @@ $GLOBALS['language']['us_en'] = array
 
 	// ======================
 	// 广播页面
-	'SEND_CAST' => 'Send a broadcast',
+	'SEND_CAST' => 'Broadcast',
 	'SEND_CAST_TO_ALL_EXPLAIN' => 'Everyone will be notified',
 	'SEND_CAST_EXPLAIN' => 'If you don\'t mention anyone, everyone will be notified ',
 	'AT_TEXT' => '@person_to_mention',
@@ -295,7 +295,7 @@ $GLOBALS['language']['us_en'] = array
 
 	'ABOUT_STAFF_BLOCK' => '<p>Design & Develop - <a href="http://twitter.com/easychen" target="_blank">@EasyChen</a> </p>
 
-	<p>English translate - <a href="http://twitter.com/easychen" target="_blank">@EasyChen</a> </p>
+	<p>English translate - <a href="http://twitter.com/easychen" target="_blank">@EasyChen</a> <a href="http://twitter.com/lazycai" target="_blank">@LazyCai</a> </p>
 
 <p><a href="https://github.com/luofei614/teamtoy-board" target="_blank">Kanban Plugin - <a href="http://weibo.com/luofei614" target="_blank">@luofei614</a></p>
 <p><a href="http://ttoy-plugin.imlibo.com/" target="_blank">TToy iOS Client</a> - <a href="http://weibo.com/imlibo" target="_blank">libo</a></p>
@@ -323,7 +323,7 @@ $GLOBALS['language']['us_en'] = array
 	'SET_AS_ADMIN' => 'Set as admin',
 	'RESET_PASSWORD' => 'Reset password',
 
-	'EDIT_MEMBER_GROUP' => 'edit group',
+	'EDIT_MEMBER_GROUP' => 'Edit group',
 
 	'DONOT_CHAT_TO_SELF' => 'You don\'t need to talk to yourself on a server, do you?',
 	'CHATBOX_EXPLAIN_TEXT' => 'Type text here, press ENTER to send',
@@ -397,6 +397,9 @@ $GLOBALS['language']['us_en'] = array
 	'JS_CANNOT_ADD_PRIVATE_TODO_TO_OTHERS' => 'Can\'t add private TODO to others',
 	'JS_SELECT_MEMBER_TO_ADD' => 'Choose the member you want to add to',
 	'JS_SELECT_MEMBER_TO_METION' => 'Choose members to mention',
+
+	//'WEIBO_LINK' => 'https://twitter.com/search/users?q=%s',
+	'WEIBO_LINK' => 'http://s.weibo.com/user/%s',
 
 	'TTEST' => ''
 );

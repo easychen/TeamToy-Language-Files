@@ -396,5 +396,7 @@ $GLOBALS['language']['zh_tw'] = array
 'JS_SELECT_MEMBER_TO_ADD' => '點擊你要加TODO的同事',
 'JS_SELECT_MEMBER_TO_METION' => '請選擇你要點名的同事',
 
+'WEIBO_LINK' => 'http://s.weibo.com/user/%s',
+
 'TTEST' => ''
 );
