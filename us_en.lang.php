@@ -229,7 +229,7 @@ $GLOBALS['language']['us_en'] = array
 	'TODO_FOLLOWED' => 'TODOs I\'ve followed',
 	'TODO_MINE' => 'My TODOs',
 	'MARK_ALL_TODO_DONE' => 'Mark all as done',
-	'CLEAN_ALL_TODO_DONE' => 'Archieve all completed TODOs',
+	'CLEAN_ALL_TODO_DONE' => 'Archive all completed TODOs',
 
 	// ======================
 	// 团队成员页面
@@ -354,7 +354,7 @@ $GLOBALS['language']['us_en'] = array
 	'JS_CANNOT_ASSIGN_PRIVATE_TODO' => 'You can\'t assign a private TODO ',
 	'JS_SELECT_MEMBER_TO_ASSIGN' => 'choose the member to assign to',
 	'JS_MARK_ALL_TODO_DONE_CONFIRM' => 'Are you sure to make all TODOs done?',
-	'JS_REMOVE_ALL_TODO_DONE_CONFIRM' => 'Archieve all finished TODOs？',
+	'JS_REMOVE_ALL_TODO_DONE_CONFIRM' => 'Archive all finished TODOs？',
 	'JS_REMOVE_CAST_CONFIRM' => 'Remove this feed?',
 	'JS_REMOVE_COMMENT_CONFIRM' => 'Remove this comment?',
 	
